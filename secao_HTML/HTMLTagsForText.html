@@ -9,6 +9,7 @@
             <p>
                 Eu <em>aaaamoooo</em> comer sanduíche
             </p>
+
             <p><b>Lorem</b> ipsum dolor sit <strong>amet</strong>, consectetur adipisicing elit. 
                 Voluptates aspernatur culpa quia libero eveniet optio 
                 quisquam quasi doloremque! Aliquam reprehenderit molestias 
@@ -37,10 +38,24 @@
             <p>A fórmula da água é H <sub>2</sub>O</p>
             
             <p>2 <sup>2</sup> = 4</p>
+
+            <!--FORMATAÇÃO STYLE-->
+
+            <style>
+                .lorem_vermelho{
+                    font-size: 30px;
+                    color: rebeccapurple;
+                }
+                #bloco {
+                    font-size: 40px;
+                    color: yellowgreen;
+                }
+            </style>
+
         <h1 style="background: burlywood;">QUEBRA DE LINHA E CITAÇÃO</h1>
                 <h2><b>The Voyager Mission</b></h2>    
                     <p>
-                        The twin Voyager 1 and 2 spacecraft are exploring where nothing from Earth has flown before. 
+                        <q>The twin Voyager 1 and 2 </q>spacecraft are exploring where nothing from Earth has flown before. 
                         Continuing on their more-than-40-year journey since their 1977 launches, they each are much 
                         farther away from Earth and the sun than Pluto. In August 2012, Voyager 1 made the historic 
                         entry into interstellar space, the region between stars, filled with material ejected by the 
@@ -53,5 +68,44 @@
                         only spacecraft to have visited those outer planets. The adventurers' current mission, the 
                         Voyager Interstellar Mission (VIM), will explore the outermost edge of the Sun's domain. And beyond.
                     </p>
+        <h1 style="background: burlywood;">TAGS FORA DO PARÁGRAFO</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, similique neque voluptatum asperiores 
+                        excepturi unde rem, doloremque tempore hic veniam magni? Saepe hic quis sequi in ipsam ex dolore magni.</p>
+                    <blockquote cite="http://127.0.0.1:5500/secao_HTML/HTMLTagsForText.html">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur blanditiis laudantium, fuga aperiam 
+                        fugiat nam aut porro quo, ea reprehenderit possimus dicta ratione atque ipsa, ipsum minima. Amet, nemo at!</p>
+                        
+                        Bloco de citação.</blockquote>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aut inventore natus voluptatibus, unde incidunt 
+                        quasi quisquam earum, quidem omnis eligendi nesciunt provident, ut repellat reiciendis distinctio tenetur soluta perspiciatis.</p>
+                            
+                        <hr>    <!--Tag sem corpo para criar uma linha-->
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt corporis repellendus perspiciatis 
+                        totam iure voluptate error animi ex harum? Sint a, ipsum cumque et placeat distinctio iste ab deserunt?</p>
+
+        <h1 style="background: burlywood;">TAGS PARA CÓDIGOS</h1>
+                    <p>O <code>console.log</code> serve para printar coisas na tela, na linguagem JavaScript.</p>
+<pre>
+<code>let soma = 0;
+inputsMais.forEach((input)) => {
+    const valor = input.value;
+    const numero = Number(valor);
+
+    if (numero) {
+        soma += nnumero;
+    }
+
+    console.log(soma);
+    } </code></pre>
+
+                <h1 style="background: burlywood;">SPAN E DIV</h1>
+                        <p><b><span class="lorem_vermelho">Lorem</span></b> ipsum dolor sit amet consectetur adipisicing elit. Pariatur 
+                        debitis quasi, inventore molestias ullam saepe minus consequuntur et 
+                        eligendi soluta dolore esse facere adipisci incidunt quod commodi quo id numquam!</p>
+
+                        <div><span id="bloco">Eu sou um bloco.</span></div>
+
+                        
     </body>
 </html>
