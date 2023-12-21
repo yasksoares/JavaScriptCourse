@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'poppins';
+    src: url('..\\fonts\\Poppins\\Poppins-SemiBoldItalic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 10px solid #708090;
+        border-radius: 25px;
+        background-color: #A3C1AD;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        margin-left: 600px;
+        margin-right: 600px;
+    }
+    background-image: url('..\\images\\fundo.jpg');
+    background-size: cover;
+}
+#design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 130%;
+    gap: 20px;
+}
+.button{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
